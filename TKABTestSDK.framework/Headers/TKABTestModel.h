@@ -42,7 +42,7 @@ typedef NS_ENUM(NSInteger, TKABTestStatus) {
 @property (nonatomic, assign) TKABTestStatus status;
 
 /**
- 数据埋点时需要拼接在事件名称后面的标志，规则为埋点事件名/页面名_abtestkey_实验结果（0、1、2、3...）
+ 数据埋点时需要拼接在事件名称后面的标志，规则为埋点事件名/页面名.abtestkey.实验结果（0、1、2、3...）
  */
 @property (nonatomic, copy) NSString *dataLabel;
 
